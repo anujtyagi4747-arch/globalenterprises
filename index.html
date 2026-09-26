@@ -1,0 +1,4733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="theme-color"
+    content="#0759c9"
+>
+
+<meta
+    name="description"
+    content="Global Enterprises - PUC Machines & Probes, Sheet Metal Fabrication, Bending & Cutting, Lathe Machine Job Works and Hand Tools Making in Delhi."
+>
+
+<title>
+Global Enterprises | Industrial Engineering Solutions
+</title>
+
+
+<style>
+
+/* =====================================================
+   GLOBAL ENTERPRISES
+   BLUE + WHITE INDUSTRIAL DESIGN
+   PART 1
+===================================================== */
+
+
+/* ---------- RESET ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:#f5f9ff;
+
+    color:#172033;
+
+    overflow-x:hidden;
+
+    -webkit-font-smoothing:antialiased;
+}
+
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+button,
+input,
+textarea,
+select{
+    font-family:inherit;
+}
+
+
+/* ---------- COLORS ---------- */
+
+:root{
+
+    --blue:#0759c9;
+
+    --blue-dark:#03439c;
+
+    --blue-light:#eaf3ff;
+
+    --blue-soft:#f3f8ff;
+
+    --white:#ffffff;
+
+    --text:#172033;
+
+    --muted:#667085;
+
+    --border:#dce7f5;
+
+    --shadow:
+        0 15px 45px rgba(20,80,150,.10);
+
+}
+
+
+/* ---------- CONTAINER ---------- */
+
+.container{
+
+    width:min(1180px, calc(100% - 34px));
+
+    margin:auto;
+
+}
+
+
+/* =====================================================
+   TOP INFORMATION BAR
+===================================================== */
+
+.top-bar{
+
+    background:#0759c9;
+
+    color:#ffffff;
+
+    min-height:34px;
+
+    display:flex;
+
+    align-items:center;
+
+    font-size:10px;
+
+}
+
+
+.top-bar-inner{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:20px;
+
+}
+
+
+.top-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+.top-dot{
+
+    width:6px;
+    height:6px;
+
+    border-radius:50%;
+
+    background:#ffffff;
+
+}
+
+
+.top-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+
+.top-right a{
+
+    opacity:.95;
+
+    transition:.2s;
+
+}
+
+
+.top-right a:hover{
+
+    opacity:1;
+
+    text-decoration:underline;
+
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.main-header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:5000;
+
+    background:
+        rgba(255,255,255,.96);
+
+    backdrop-filter:blur(15px);
+
+    border-bottom:1px solid #e4edf8;
+
+}
+
+
+.header-inner{
+
+    min-height:76px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+}
+
+
+/* ---------- LOGO ---------- */
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:11px;
+
+    flex-shrink:0;
+
+}
+
+
+.brand-mark{
+
+    width:43px;
+    height:43px;
+
+    border-radius:9px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    background:
+        linear-gradient(
+            145deg,
+            #0871ef,
+            #03439c
+        );
+
+    color:#ffffff;
+
+    font-size:13px;
+
+    font-weight:900;
+
+    letter-spacing:.5px;
+
+    box-shadow:
+        0 8px 20px rgba(7,89,201,.20);
+
+}
+
+
+.brand-text strong{
+
+    display:block;
+
+    color:#14233b;
+
+    font-size:16px;
+
+    letter-spacing:-.4px;
+
+}
+
+
+.brand-text span{
+
+    display:block;
+
+    margin-top:2px;
+
+    color:#75839a;
+
+    font-size:7px;
+
+    font-weight:700;
+
+    letter-spacing:1.5px;
+
+}
+
+
+/* =====================================================
+   DESKTOP NAV
+===================================================== */
+
+.desktop-nav{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:28px;
+
+}
+
+
+.desktop-nav a{
+
+    position:relative;
+
+    color:#536176;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    transition:.25s;
+
+}
+
+
+.desktop-nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    border-radius:10px;
+
+    background:#0759c9;
+
+    transition:.25s;
+
+}
+
+
+.desktop-nav a:hover{
+
+    color:#0759c9;
+
+}
+
+
+.desktop-nav a:hover::after{
+
+    width:100%;
+
+}
+
+
+/* ---------- HEADER BUTTON ---------- */
+
+.header-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:7px;
+
+    min-height:40px;
+
+    padding:0 16px;
+
+    border-radius:6px;
+
+    background:#0759c9;
+
+    color:#ffffff;
+
+    font-size:10px;
+
+    font-weight:800;
+
+    box-shadow:
+        0 7px 18px rgba(7,89,201,.16);
+
+    transition:.25s;
+
+}
+
+
+.header-btn:hover{
+
+    background:#03439c;
+
+    transform:translateY(-1px);
+
+}
+
+
+/* =====================================================
+   MOBILE MENU BUTTON
+===================================================== */
+
+.menu-btn{
+
+    display:none;
+
+    width:42px;
+    height:42px;
+
+    border:1px solid #dbe7f4;
+
+    border-radius:7px;
+
+    background:#ffffff;
+
+    cursor:pointer;
+
+}
+
+
+.menu-line{
+
+    display:block;
+
+    width:18px;
+    height:2px;
+
+    margin:4px auto;
+
+    border-radius:10px;
+
+    background:#0759c9;
+
+}
+
+
+/* =====================================================
+   MOBILE NAV
+===================================================== */
+
+.mobile-nav{
+
+    display:none;
+
+    padding:8px 17px 18px;
+
+    background:#ffffff;
+
+    border-top:1px solid #edf2f8;
+
+}
+
+
+.mobile-nav.active{
+
+    display:block;
+
+}
+
+
+.mobile-nav a{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:13px 2px;
+
+    border-bottom:1px solid #edf2f8;
+
+    color:#26354b;
+
+    font-size:12px;
+
+    font-weight:700;
+
+}
+
+
+.mobile-nav a:last-child{
+
+    border-bottom:0;
+
+}
+
+
+.mobile-nav .mobile-cta{
+
+    margin-top:10px;
+
+    padding:13px;
+
+    justify-content:center;
+
+    border-radius:6px;
+
+    background:#0759c9;
+
+    color:#ffffff;
+
+    border:0;
+
+}
+
+
+/* =====================================================
+   COMMON SECTION
+===================================================== */
+
+section{
+
+    position:relative;
+
+}
+
+
+.section-tag{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    color:#0759c9;
+
+    font-size:8px;
+
+    font-weight:900;
+
+    letter-spacing:1.7px;
+
+}
+
+
+.section-tag::before{
+
+    content:"";
+
+    width:18px;
+    height:2px;
+
+    background:#0759c9;
+
+    border-radius:10px;
+
+}
+
+
+.section-title{
+
+    margin-top:10px;
+
+    color:#14233b;
+
+    font-size:
+        clamp(30px, 4vw, 48px);
+
+    line-height:1.08;
+
+    letter-spacing:-1.8px;
+
+}
+
+
+.section-title span{
+
+    color:#0759c9;
+
+}
+
+
+.section-text{
+
+    max-width:620px;
+
+    margin-top:15px;
+
+    color:#667085;
+
+    font-size:13px;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.primary-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    gap:9px;
+
+    min-height:48px;
+
+    padding:0 20px;
+
+    border-radius:6px;
+
+    background:#0759c9;
+
+    color:#ffffff;
+
+    font-size:10px;
+
+    font-weight:800;
+
+    box-shadow:
+        0 10px 25px rgba(7,89,201,.17);
+
+    transition:.25s;
+
+}
+
+
+.primary-btn:hover{
+
+    background:#03439c;
+
+    transform:translateY(-2px);
+
+}
+
+
+.secondary-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    min-height:48px;
+
+    padding:0 20px;
+
+    border:1px solid #cfddec;
+
+    border-radius:6px;
+
+    background:#ffffff;
+
+    color:#26354b;
+
+    font-size:10px;
+
+    font-weight:800;
+
+    transition:.25s;
+
+}
+
+
+.secondary-btn:hover{
+
+    border-color:#0759c9;
+
+    color:#0759c9;
+
+    transform:translateY(-2px);
+
+}
+
+
+/* =====================================================
+   RESPONSIVE HEADER
+===================================================== */
+
+@media(max-width:900px){
+
+    .desktop-nav,
+    .header-btn{
+
+        display:none;
+
+    }
+
+    .menu-btn{
+
+        display:block;
+
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .top-bar{
+
+        min-height:31px;
+
+        font-size:8px;
+
+    }
+
+    .top-right{
+
+        display:none;
+
+    }
+
+    .top-left{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .container{
+
+        width:min(
+            100% - 28px,
+            1180px
+        );
+
+    }
+
+    .header-inner{
+
+        min-height:67px;
+
+    }
+
+    .brand-mark{
+
+        width:39px;
+        height:39px;
+
+        border-radius:8px;
+
+    }
+
+    .brand-text strong{
+
+        font-size:14px;
+
+    }
+
+    .brand-text span{
+
+        font-size:6px;
+
+    }
+
+}
+
+
+/* =====================================================
+   SMOOTH PAGE SELECTION
+===================================================== */
+
+::selection{
+
+    background:#0759c9;
+
+    color:#ffffff;
+
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:7px;
+
+}
+
+
+::-webkit-scrollbar-track{
+
+    background:#eef4fb;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+    background:#7ca9df;
+
+    border-radius:20px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#0759c9;
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP BAR
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="container top-bar-inner">
+
+        <div class="top-left">
+
+            <span class="top-dot"></span>
+
+            <span>
+                Industrial &amp; Engineering Solutions
+            </span>
+
+        </div>
+
+
+        <div class="top-right">
+
+            <a href="tel:7048993368">
+                +91 70489 93368
+            </a>
+
+            <a href="mailto:globalenterprises05122021@gmail.com">
+                Email Us
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="main-header">
+
+    <div class="container header-inner">
+
+
+        <!-- LOGO -->
+
+        <a href="#home" class="brand">
+
+            <div class="brand-mark">
+                GE
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    Global Enterprises
+                </strong>
+
+                <span>
+                    INDUSTRIAL SOLUTIONS
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <!-- DESKTOP NAV -->
+
+        <nav class="desktop-nav">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#services">
+                Products &amp; Services
+            </a>
+
+            <a href="#about">
+                About Us
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- HEADER CTA -->
+
+        <a
+            href="https://wa.me/917048993368"
+            target="_blank"
+            class="header-btn"
+        >
+            Get a Quote
+            <span>↗</span>
+        </a>
+
+
+        <!-- MOBILE MENU -->
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open Menu"
+        >
+
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+
+        </button>
+
+    </div>
+
+
+    <!-- MOBILE NAV -->
+
+    <nav
+        class="mobile-nav"
+        id="mobileNav"
+    >
+
+        <a href="#home">
+            Home
+            <span>→</span>
+        </a>
+
+        <a href="#services">
+            Products &amp; Services
+            <span>→</span>
+        </a>
+
+        <a href="#about">
+            About Us
+            <span>→</span>
+        </a>
+
+        <a href="#contact">
+            Contact
+            <span>→</span>
+        </a>
+
+        <a
+            href="https://wa.me/917048993368"
+            target="_blank"
+            class="mobile-cta"
+        >
+            Get a Quote on WhatsApp
+        </a>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN START
+===================================================== -->
+
+<main id="home">
+
+
+<!-- =====================================================
+     PART 2 WILL START BELOW THIS LINE
+===================================================== -->
+  <!-- =====================================================
+     PART 2 — HERO SECTION
+===================================================== -->
+
+<section class="hero-section">
+
+    <div class="container hero-grid">
+
+
+        <!-- =========================
+             HERO CONTENT
+        ========================= -->
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+
+                <span class="hero-badge-dot"></span>
+
+                PRECISION INDUSTRIAL WORK
+
+            </div>
+
+
+            <h1>
+
+                Industrial
+                <span>Solutions</span>
+                Built for Real Work.
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Global Enterprises provides practical
+                industrial solutions including PUC machines
+                &amp; probes, sheet metal fabrication,
+                bending &amp; cutting, lathe machine job works
+                and hand tools making.
+
+            </p>
+
+
+            <!-- HERO BUTTONS -->
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#services"
+                    class="primary-btn"
+                >
+                    Explore Services
+                    <span>↓</span>
+                </a>
+
+
+                <a
+                    href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20would%20like%20to%20discuss%20a%20requirement."
+                    target="_blank"
+                    class="secondary-btn"
+                >
+                    WhatsApp Us
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+
+            <!-- HERO TRUST -->
+
+            <div class="hero-trust">
+
+                <div class="trust-item">
+
+                    <strong>
+                        05
+                    </strong>
+
+                    <span>
+                        Core Services
+                    </span>
+
+                </div>
+
+
+                <div class="trust-divider"></div>
+
+
+                <div class="trust-item">
+
+                    <strong>
+                        DELHI
+                    </strong>
+
+                    <span>
+                        Based Business
+                    </span>
+
+                </div>
+
+
+                <div class="trust-divider"></div>
+
+
+                <div class="trust-item">
+
+                    <strong>
+                        CUSTOM
+                    </strong>
+
+                    <span>
+                        Requirements
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             HERO VISUAL
+        ========================= -->
+
+        <div class="hero-visual">
+
+
+            <!-- MAIN INDUSTRIAL CARD -->
+
+            <div class="industrial-card">
+
+
+                <div class="industrial-top">
+
+                    <span>
+                        GLOBAL ENTERPRISES
+                    </span>
+
+                    <span class="industrial-status">
+                        ● ACTIVE
+                    </span>
+
+                </div>
+
+
+                <!-- MACHINE ILLUSTRATION -->
+
+                <div class="machine-scene">
+
+
+                    <div class="machine-shadow"></div>
+
+
+                    <div class="machine-body">
+
+
+                        <div class="machine-top">
+
+                            <div class="machine-top-line"></div>
+
+                            <div class="machine-top-line short"></div>
+
+                        </div>
+
+
+                        <div class="machine-panel">
+
+                            <div class="panel-screen">
+
+                                <div class="screen-line"></div>
+
+                                <div class="screen-line small"></div>
+
+                                <div class="screen-line"></div>
+
+                            </div>
+
+
+                            <div class="panel-buttons">
+
+                                <span></span>
+                                <span></span>
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="machine-base">
+
+                            <div class="machine-leg"></div>
+                            <div class="machine-leg"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- METAL ROD -->
+
+                    <div class="metal-rod">
+
+                        <div class="rod-end"></div>
+
+                    </div>
+
+
+                    <!-- TOOL -->
+
+                    <div class="industrial-tool">
+
+                        <div class="tool-handle"></div>
+
+                        <div class="tool-head"></div>
+
+                    </div>
+
+
+                    <!-- SMALL PARTS -->
+
+                    <div class="metal-part part-one"></div>
+
+                    <div class="metal-part part-two"></div>
+
+                    <div class="metal-part part-three"></div>
+
+                </div>
+
+
+                <div class="industrial-bottom">
+
+                    <div>
+
+                        <small>
+                            FEATURED
+                        </small>
+
+                        <strong>
+                            Industrial Machine Work
+                        </strong>
+
+                    </div>
+
+                    <span class="arrow-circle">
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- FLOATING CARD -->
+
+            <div class="hero-floating-card">
+
+                <div class="floating-icon">
+                    GE
+                </div>
+
+                <div>
+
+                    <small>
+                        INDUSTRIAL
+                    </small>
+
+                    <strong>
+                        Engineering Work
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- BLUE ORB -->
+
+            <div class="hero-blue-orb"></div>
+
+
+            <!-- DECORATIVE GRID -->
+
+            <div class="hero-grid-pattern"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         HERO BOTTOM SERVICES
+    ========================= -->
+
+    <div class="container">
+
+        <div class="hero-service-strip">
+
+
+            <div class="hero-service-item">
+
+                <span class="service-number">
+                    01
+                </span>
+
+                <div>
+
+                    <strong>
+                        PUC Machines
+                    </strong>
+
+                    <small>
+                        &amp; Probes
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-service-item">
+
+                <span class="service-number">
+                    02
+                </span>
+
+                <div>
+
+                    <strong>
+                        Sheet Metal
+                    </strong>
+
+                    <small>
+                        Fabrication
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-service-item">
+
+                <span class="service-number">
+                    03
+                </span>
+
+                <div>
+
+                    <strong>
+                        Bending
+                    </strong>
+
+                    <small>
+                        &amp; Cutting
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-service-item">
+
+                <span class="service-number">
+                    04
+                </span>
+
+                <div>
+
+                    <strong>
+                        Lathe Machine
+                    </strong>
+
+                    <small>
+                        Job Works
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-service-item">
+
+                <span class="service-number">
+                    05
+                </span>
+
+                <div>
+
+                    <strong>
+                        Hand Tools
+                    </strong>
+
+                    <small>
+                        Making
+                    </small>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     INTRO STRIP
+===================================================== -->
+
+<section class="intro-section">
+
+    <div class="container intro-grid">
+
+
+        <div class="intro-label">
+
+            <span>
+                01 / ABOUT OUR WORK
+            </span>
+
+        </div>
+
+
+        <div class="intro-content">
+
+            <h2>
+
+                From fabrication to
+                <span>machine work,</span>
+                we focus on practical
+                industrial requirements.
+
+            </h2>
+
+
+            <p>
+
+                Whether you need custom fabrication,
+                precision machine job work, bending and
+                cutting or industrial hand tools,
+                Global Enterprises is focused on
+                understanding the requirement and
+                delivering practical work solutions.
+
+            </p>
+
+
+            <a
+                href="#about"
+                class="intro-link"
+            >
+
+                Discover Global Enterprises
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PART 2 STYLES
+===================================================== -->
+
+<style>
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero-section{
+
+    position:relative;
+
+    padding:70px 0 35px;
+
+    overflow:hidden;
+
+    background:
+
+        radial-gradient(
+            circle at 75% 15%,
+            rgba(60,145,255,.13),
+            transparent 32%
+        ),
+
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #f4f9ff 100%
+        );
+
+}
+
+
+/* ---------- HERO GRID ---------- */
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    align-items:center;
+
+    gap:55px;
+
+}
+
+
+/* =====================================================
+   HERO CONTENT
+===================================================== */
+
+.hero-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    padding:7px 10px;
+
+    border:1px solid #cfe0f5;
+
+    border-radius:30px;
+
+    background:#ffffff;
+
+    color:#0759c9;
+
+    font-size:8px;
+
+    font-weight:900;
+
+    letter-spacing:1.3px;
+
+}
+
+
+.hero-badge-dot{
+
+    width:6px;
+    height:6px;
+
+    border-radius:50%;
+
+    background:#0b68df;
+
+    box-shadow:
+        0 0 0 4px #e6f1ff;
+
+}
+
+
+.hero-content h1{
+
+    max-width:620px;
+
+    margin-top:19px;
+
+    color:#122039;
+
+    font-size:
+        clamp(42px, 6vw, 72px);
+
+    line-height:.99;
+
+    letter-spacing:-3.5px;
+
+}
+
+
+.hero-content h1 span{
+
+    display:block;
+
+    color:#0759c9;
+
+}
+
+
+.hero-description{
+
+    max-width:570px;
+
+    margin-top:21px;
+
+    color:#68778e;
+
+    font-size:13px;
+
+    line-height:1.85;
+
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.hero-buttons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:11px;
+
+    margin-top:27px;
+
+}
+
+
+/* ---------- TRUST ---------- */
+
+.hero-trust{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    margin-top:37px;
+
+}
+
+
+.trust-item{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:3px;
+
+}
+
+
+.trust-item strong{
+
+    color:#18283f;
+
+    font-size:12px;
+
+    font-weight:900;
+
+}
+
+
+.trust-item span{
+
+    color:#8793a5;
+
+    font-size:7px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+
+.trust-divider{
+
+    width:1px;
+
+    height:29px;
+
+    background:#d9e5f2;
+
+}
+
+
+/* =====================================================
+   HERO VISUAL
+===================================================== */
+
+.hero-visual{
+
+    position:relative;
+
+    min-height:510px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+/* ---------- MAIN CARD ---------- */
+
+.industrial-card{
+
+    position:relative;
+
+    z-index:3;
+
+    width:min(100%, 490px);
+
+    min-height:440px;
+
+    overflow:hidden;
+
+    border:1px solid #d6e4f4;
+
+    border-radius:18px;
+
+    background:#ffffff;
+
+    box-shadow:
+        0 30px 70px rgba(27,83,145,.15);
+
+}
+
+
+/* ---------- CARD TOP ---------- */
+
+.industrial-top{
+
+    min-height:54px;
+
+    padding:0 21px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    border-bottom:1px solid #e5edf6;
+
+    color:#738197;
+
+    font-size:7px;
+
+    font-weight:900;
+
+    letter-spacing:1.2px;
+
+}
+
+
+.industrial-status{
+
+    color:#0b68df;
+
+}
+
+
+/* =====================================================
+   MACHINE SCENE
+===================================================== */
+
+.machine-scene{
+
+    position:relative;
+
+    height:320px;
+
+    overflow:hidden;
+
+    background:
+
+        radial-gradient(
+            circle at 50% 35%,
+            #ffffff 0,
+            #edf5ff 55%,
+            #dceaff 100%
+        );
+
+}
+
+
+/* ---------- GRID FLOOR ---------- */
+
+.machine-scene::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:-10%;
+
+    bottom:-45px;
+
+    width:120%;
+
+    height:130px;
+
+    transform:
+        perspective(300px)
+        rotateX(60deg);
+
+    background-image:
+
+        linear-gradient(
+            #c9dced 1px,
+            transparent 1px
+        ),
+
+        linear-gradient(
+            90deg,
+            #c9dced 1px,
+            transparent 1px
+        );
+
+    background-size:
+        35px 35px;
+
+    opacity:.55;
+
+}
+
+
+/* ---------- SHADOW ---------- */
+
+.machine-shadow{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:40px;
+
+    width:280px;
+    height:35px;
+
+    transform:translateX(-50%);
+
+    border-radius:50%;
+
+    background:
+        rgba(22,68,120,.14);
+
+    filter:blur(14px);
+
+}
+
+
+/* =====================================================
+   MACHINE BODY
+===================================================== */
+
+.machine-body{
+
+    position:absolute;
+
+    z-index:4;
+
+    left:50%;
+
+    top:58px;
+
+    width:230px;
+
+    height:190px;
+
+    transform:translateX(-50%);
+
+}
+
+
+/* ---------- MACHINE TOP ---------- */
+
+.machine-top{
+
+    height:35px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:0 15px;
+
+    border-radius:
+        10px 10px 2px 2px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #edf4fc,
+            #b8c9db
+        );
+
+    border:1px solid #9eb3c9;
+
+}
+
+
+.machine-top-line{
+
+    width:75px;
+    height:5px;
+
+    border-radius:5px;
+
+    background:#8ea5bc;
+
+}
+
+
+.machine-top-line.short{
+
+    width:30px;
+
+}
+
+
+/* ---------- PANEL ---------- */
+
+.machine-panel{
+
+    position:relative;
+
+    height:118px;
+
+    padding:18px;
+
+    border-left:1px solid #9eb3c9;
+    border-right:1px solid #9eb3c9;
+
+    background:
+        linear-gradient(
+            145deg,
+            #d8e4ef,
+            #aabdd0
+        );
+
+}
+
+
+/* ---------- SCREEN ---------- */
+
+.panel-screen{
+
+    position:absolute;
+
+    left:20px;
+    top:19px;
+
+    width:92px;
+    height:65px;
+
+    padding:12px;
+
+    border-radius:5px;
+
+    background:#132238;
+
+    border:4px solid #91a7bc;
+
+}
+
+
+.screen-line{
+
+    width:65px;
+    height:4px;
+
+    margin-bottom:7px;
+
+    border-radius:5px;
+
+    background:#3e8cf0;
+
+}
+
+
+.screen-line.small{
+
+    width:35px;
+
+    opacity:.65;
+
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.panel-buttons{
+
+    position:absolute;
+
+    right:22px;
+    top:23px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:9px;
+
+}
+
+
+.panel-buttons span{
+
+    width:16px;
+    height:16px;
+
+    border-radius:50%;
+
+    border:2px solid #8ea3b8;
+
+    background:#f4f7fa;
+
+}
+
+
+.panel-buttons span:nth-child(2){
+
+    background:#0c69df;
+
+}
+
+
+.panel-buttons span:nth-child(3){
+
+    background:#ffffff;
+
+}
+
+
+/* ---------- MACHINE BASE ---------- */
+
+.machine-base{
+
+    position:relative;
+
+    height:37px;
+
+    border-radius:
+        0 0 8px 8px;
+
+    border:1px solid #91a7bc;
+
+    background:
+        linear-gradient(
+            180deg,
+            #b5c6d7,
+            #8fa6bc
+        );
+
+}
+
+
+.machine-leg{
+
+    position:absolute;
+
+    bottom:-31px;
+
+    width:23px;
+    height:35px;
+
+    background:#7f96ad;
+
+}
+
+
+.machine-leg:first-child{
+
+    left:27px;
+
+}
+
+
+.machine-leg:last-child{
+
+    right:27px;
+
+}
+
+
+/* =====================================================
+   METAL ROD
+===================================================== */
+
+.metal-rod{
+
+    position:absolute;
+
+    z-index:5;
+
+    left:78px;
+
+    top:232px;
+
+    width:245px;
+
+    height:15px;
+
+    border-radius:10px;
+
+    transform:rotate(-7deg);
+
+    background:
+
+        linear-gradient(
+            180deg,
+            #eef4f8,
+            #9aaabd,
+            #e8eef4
+        );
+
+    box-shadow:
+        0 7px 10px rgba(35,72,110,.15);
+
+}
+
+
+.rod-end{
+
+    position:absolute;
+
+    right:-7px;
+
+    top:-4px;
+
+    width:23px;
+    height:23px;
+
+    border-radius:50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #dbe4ed 25%,
+            #879bae 27%,
+            #b9c8d7 65%
+        );
+
+}
+
+
+/* =====================================================
+   INDUSTRIAL TOOL
+===================================================== */
+
+.industrial-tool{
+
+    position:absolute;
+
+    z-index:6;
+
+    right:65px;
+
+    bottom:51px;
+
+    width:105px;
+
+    height:55px;
+
+    transform:rotate(-17deg);
+
+}
+
+
+.tool-handle{
+
+    position:absolute;
+
+    left:0;
+
+    top:18px;
+
+    width:72px;
+
+    height:22px;
+
+    border-radius:20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #d7e0e8,
+            #778da4
+        );
+
+}
+
+
+.tool-head{
+
+    position:absolute;
+
+    right:0;
+
+    top:4px;
+
+    width:47px;
+
+    height:48px;
+
+    border-radius:6px 15px 15px 6px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #e8eef4,
+            #8399ae
+        );
+
+}
+
+
+/* =====================================================
+   SMALL METAL PARTS
+===================================================== */
+
+.metal-part{
+
+    position:absolute;
+
+    z-index:7;
+
+    border:2px solid #94a9bc;
+
+    background:#dbe5ed;
+
+    box-shadow:
+        0 6px 10px rgba(40,80,120,.1);
+
+}
+
+
+.part-one{
+
+    width:25px;
+    height:25px;
+
+    right:55px;
+    bottom:42px;
+
+    border-radius:5px;
+
+    transform:rotate(20deg);
+
+}
+
+
+.part-two{
+
+    width:17px;
+    height:17px;
+
+    left:67px;
+    bottom:38px;
+
+    border-radius:50%;
+
+}
+
+
+.part-three{
+
+    width:32px;
+    height:10px;
+
+    left:120px;
+    bottom:30px;
+
+    border-radius:8px;
+
+    transform:rotate(12deg);
+
+}
+
+
+/* =====================================================
+   INDUSTRIAL CARD BOTTOM
+===================================================== */
+
+.industrial-bottom{
+
+    min-height:66px;
+
+    padding:0 20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    border-top:1px solid #e5edf6;
+
+}
+
+
+.industrial-bottom small{
+
+    display:block;
+
+    color:#8a98aa;
+
+    font-size:7px;
+
+    font-weight:900;
+
+    letter-spacing:1.3px;
+
+}
+
+
+.industrial-bottom strong{
+
+    display:block;
+
+    margin-top:4px;
+
+    color:#20304a;
+
+    font-size:11px;
+
+}
+
+
+.arrow-circle{
+
+    width:34px;
+    height:34px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#eaf3ff;
+
+    color:#0759c9;
+
+    font-size:13px;
+
+}
+
+
+/* =====================================================
+   FLOATING CARD
+===================================================== */
+
+.hero-floating-card{
+
+    position:absolute;
+
+    z-index:8;
+
+    left:-5px;
+
+    bottom:53px;
+
+    min-width:185px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 14px;
+
+    border:1px solid #d4e3f4;
+
+    border-radius:9px;
+
+    background:
+        rgba(255,255,255,.96);
+
+    box-shadow:
+        0 15px 35px rgba(30,80,135,.1
+                         <!-- =====================================================
+     PART 3 — PRODUCTS & SERVICES
+===================================================== -->
+
+<section class="products-section" id="services">
+
+    <div class="container">
+
+
+        <!-- SECTION HEADER -->
+
+        <div class="products-header">
+
+            <div>
+
+                <span class="section-tag">
+                    OUR SERVICES
+                </span>
+
+                <h2 class="section-title">
+                    Built around your
+                    <span>industrial needs.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="products-header-right">
+
+                <p>
+                    Explore our core industrial services,
+                    from fabrication and machine work to
+                    custom tools and practical engineering
+                    requirements.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             PRODUCT GRID
+        ================================================= -->
+
+        <div class="product-grid">
+
+
+            <!-- =================================================
+                 CARD 01 — PUC MACHINE
+            ================================================= -->
+
+            <article class="product-card">
+
+                <div class="product-image product-machine">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+                    <span class="product-label">
+                        INDUSTRIAL EQUIPMENT
+                    </span>
+
+
+                    <!-- MACHINE VISUAL -->
+
+                    <div class="puc-machine">
+
+                        <div class="puc-top"></div>
+
+                        <div class="puc-body">
+
+                            <div class="puc-screen">
+
+                                <i></i>
+                                <i></i>
+                                <i></i>
+
+                            </div>
+
+                            <div class="puc-control">
+
+                                <b></b>
+                                <b></b>
+                                <b></b>
+
+                            </div>
+
+                        </div>
+
+                        <div class="puc-bottom">
+
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="puc-probe">
+
+                            <div></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="image-glow"></div>
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <div class="product-category">
+                        MACHINE &amp; PROBES
+                    </div>
+
+                    <h3>
+                        PUC Machine &amp; Probes
+                    </h3>
+
+                    <p>
+                        Industrial machine and probe
+                        requirements for practical
+                        applications and custom work.
+                    </p>
+
+                    <a
+                        href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20need%20information%20about%20PUC%20Machine%20%26%20Probes."
+                        target="_blank"
+                        class="product-link"
+                    >
+                        Enquire Now
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 02 — SHEET METAL
+            ================================================= -->
+
+            <article class="product-card">
+
+                <div class="product-image product-sheet">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+                    <span class="product-label">
+                        FABRICATION
+                    </span>
+
+
+                    <!-- SHEET VISUAL -->
+
+                    <div class="sheet-scene">
+
+                        <div class="sheet-back"></div>
+
+                        <div class="sheet-main">
+
+                            <div class="sheet-hole h1"></div>
+                            <div class="sheet-hole h2"></div>
+                            <div class="sheet-hole h3"></div>
+                            <div class="sheet-hole h4"></div>
+
+                        </div>
+
+                        <div class="sheet-edge"></div>
+
+                        <div class="sheet-tool"></div>
+
+                    </div>
+
+
+                    <div class="image-glow"></div>
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <div class="product-category">
+                        METAL FABRICATION
+                    </div>
+
+                    <h3>
+                        Sheet Metal Fabrication
+                    </h3>
+
+                    <p>
+                        Sheet metal fabrication work
+                        for industrial, workshop and
+                        custom requirements.
+                    </p>
+
+                    <a
+                        href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20need%20Sheet%20Metal%20Fabrication%20work."
+                        target="_blank"
+                        class="product-link"
+                    >
+                        Enquire Now
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 03 — BENDING & CUTTING
+            ================================================= -->
+
+            <article class="product-card">
+
+                <div class="product-image product-bending">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+                    <span class="product-label">
+                        PRECISION WORK
+                    </span>
+
+
+                    <!-- BENDING MACHINE VISUAL -->
+
+                    <div class="bending-machine">
+
+                        <div class="bend-frame">
+
+                            <div class="bend-top"></div>
+
+                            <div class="bend-column left"></div>
+                            <div class="bend-column right"></div>
+
+                            <div class="bend-bed"></div>
+
+                        </div>
+
+
+                        <div class="metal-sheet">
+
+                            <span></span>
+
+                        </div>
+
+
+                        <div class="bend-light"></div>
+
+                    </div>
+
+
+                    <div class="image-glow"></div>
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <div class="product-category">
+                        BENDING &amp; CUTTING
+                    </div>
+
+                    <h3>
+                        Bending &amp; Cutting
+                    </h3>
+
+                    <p>
+                        Accurate bending and cutting
+                        solutions based on the required
+                        dimensions and application.
+                    </p>
+
+                    <a
+                        href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20need%20Bending%20%26%20Cutting%20work."
+                        target="_blank"
+                        class="product-link"
+                    >
+                        Enquire Now
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 04 — LATHE
+            ================================================= -->
+
+            <article class="product-card">
+
+                <div class="product-image product-lathe">
+
+                    <span class="product-number">
+                        04
+                    </span>
+
+                    <span class="product-label">
+                        MACHINE JOB WORK
+                    </span>
+
+
+                    <!-- LATHE VISUAL -->
+
+                    <div class="lathe-scene">
+
+                        <div class="lathe-base"></div>
+
+                        <div class="lathe-head">
+
+                            <div class="lathe-ring"></div>
+
+                        </div>
+
+                        <div class="lathe-chuck">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="lathe-bar"></div>
+
+                        <div class="lathe-tail">
+
+                            <div></div>
+
+                        </div>
+
+                        <div class="lathe-cut"></div>
+
+                    </div>
+
+
+                    <div class="image-glow"></div>
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <div class="product-category">
+                        LATHE WORK
+                    </div>
+
+                    <h3>
+                        Lathe Machine Job Works
+                    </h3>
+
+                    <p>
+                        Machine job work for components,
+                        parts and practical workshop
+                        requirements.
+                    </p>
+
+                    <a
+                        href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20need%20Lathe%20Machine%20Job%20Work."
+                        target="_blank"
+                        class="product-link"
+                    >
+                        Enquire Now
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 05 — HAND TOOLS
+            ================================================= -->
+
+            <article class="product-card product-wide">
+
+                <div class="product-image product-tools">
+
+                    <span class="product-number">
+                        05
+                    </span>
+
+                    <span class="product-label">
+                        CUSTOM TOOLS
+                    </span>
+
+
+                    <!-- HAND TOOLS VISUAL -->
+
+                    <div class="tools-scene">
+
+
+                        <!-- HAMMER -->
+
+                        <div class="tool-hammer">
+
+                            <div class="hammer-head"></div>
+
+                            <div class="hammer-handle"></div>
+
+                        </div>
+
+
+                        <!-- WRENCH -->
+
+                        <div class="tool-wrench">
+
+                            <div class="wrench-body"></div>
+
+                            <div class="wrench-hole"></div>
+
+                        </div>
+
+
+                        <!-- SPANNER -->
+
+                        <div class="tool-spanner">
+
+                            <div class="spanner-body"></div>
+
+                            <div class="spanner-hole"></div>
+
+                        </div>
+
+
+                        <!-- SCREWDRIVER -->
+
+                        <div class="tool-driver">
+
+                            <div class="driver-handle"></div>
+
+                            <div class="driver-shaft"></div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="image-glow"></div>
+
+                </div>
+
+
+                <div class="product-content">
+
+                    <div class="product-category">
+                        HAND TOOLS
+                    </div>
+
+                    <h3>
+                        Hand Tools Making
+                    </h3>
+
+                    <p>
+                        Custom hand tools and workshop
+                        tool-making requirements based
+                        on your application.
+                    </p>
+
+                    <a
+                        href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20need%20Hand%20Tools%20Making%20work."
+                        target="_blank"
+                        class="product-link"
+                    >
+                        Enquire Now
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM CTA
+        ================================================= -->
+
+        <div class="services-cta">
+
+            <div>
+
+                <span>
+                    HAVE A SPECIFIC REQUIREMENT?
+                </span>
+
+                <strong>
+                    Tell us what you need and let's discuss it.
+                </strong>
+
+            </div>
+
+
+            <a
+                href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20have%20a%20specific%20industrial%20requirement."
+                target="_blank"
+                class="primary-btn"
+            >
+                Discuss Requirement
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PART 3 STYLES
+===================================================== -->
+
+<style>
+
+/* =====================================================
+   PRODUCTS SECTION
+===================================================== */
+
+.products-section{
+
+    padding:100px 0;
+
+    background:#f5f9ff;
+
+}
+
+
+/* ---------- HEADER ---------- */
+
+.products-header{
+
+    display:grid;
+
+    grid-template-columns:
+        1.1fr .9fr;
+
+    gap:50px;
+
+    align-items:end;
+
+    margin-bottom:38px;
+
+}
+
+
+.products-header-right{
+
+    max-width:420px;
+
+}
+
+
+.products-header-right p{
+
+    color:#6b788b;
+
+    font-size:12px;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   PRODUCT GRID
+===================================================== */
+
+.product-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap:18px;
+
+}
+
+
+/* =====================================================
+   PRODUCT CARD
+===================================================== */
+
+.product-card{
+
+    overflow:hidden;
+
+    border:1px solid #dbe7f4;
+
+    border-radius:13px;
+
+    background:#ffffff;
+
+    box-shadow:
+        0 12px 35px rgba(30,80,135,.055);
+
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-color .35s ease;
+
+}
+
+
+.product-card:hover{
+
+    transform:translateY(-7px);
+
+    border-color:#b8d2ef;
+
+    box-shadow:
+        0 25px 55px rgba(30,80,135,.12);
+
+}
+
+
+.product-wide{
+
+    grid-column:1 / -1;
+
+}
+
+
+/* =====================================================
+   PRODUCT IMAGE AREA
+===================================================== */
+
+.product-image{
+
+    position:relative;
+
+    height:285px;
+
+    overflow:hidden;
+
+}
+
+
+.product-machine{
+
+    background:
+        linear-gradient(
+            135deg,
+            #eaf4ff,
+            #cbdff5
+        );
+
+}
+
+
+.product-sheet{
+
+    background:
+        linear-gradient(
+            135deg,
+            #f1f7ff,
+            #d9e9fa
+        );
+
+}
+
+
+.product-bending{
+
+    background:
+        linear-gradient(
+            135deg,
+            #e8f3ff,
+            #c6ddf4
+        );
+
+}
+
+
+.product-lathe{
+
+    background:
+        linear-gradient(
+            135deg,
+            #edf6ff,
+            #d2e3f4
+        );
+
+}
+
+
+.product-tools{
+
+    height:320px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0759c9,
+            #063d89
+        );
+
+}
+
+
+/* ---------- IMAGE LABELS ---------- */
+
+.product-number{
+
+    position:absolute;
+
+    z-index:30;
+
+    top:17px;
+    left:18px;
+
+    color:#0759c9;
+
+    font-size:10px;
+
+    font-weight:900;
+
+}
+
+
+.product-label{
+
+    position:absolute;
+
+    z-index:30;
+
+    top:17px;
+    right:18px;
+
+    padding:6px 9px;
+
+    border:1px solid rgba(255,255,255,.75);
+
+    border-radius:20px;
+
+    background:
+        rgba(255,255,255,.65);
+
+    backdrop-filter:blur(8px);
+
+    color:#45617f;
+
+    font-size:6px;
+
+    font-weight:900;
+
+    letter-spacing:1px;
+
+}
+
+
+/* =====================================================
+   GLOW
+===================================================== */
+
+.image-glow{
+
+    position:absolute;
+
+    width:180px;
+    height:180px;
+
+    left:50%;
+    top:50%;
+
+    transform:
+        translate(-50%,-50%);
+
+    border-radius:50%;
+
+    background:
+        rgba(255,255,255,.5);
+
+    filter:blur(35px);
+
+    pointer-events:none;
+
+}
+
+
+/* =====================================================
+   PUC MACHINE
+===================================================== */
+
+.puc-machine{
+
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    width:270px;
+    height:190px;
+
+    transform:
+        translate(-50%,-42%);
+
+}
+
+
+.puc-top{
+
+    position:absolute;
+
+    left:35px;
+    top:0;
+
+    width:200px;
+    height:28px;
+
+    border-radius:
+        9px 9px 3px 3px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f4f8fc,
+            #a9bdd1
+        );
+
+    border:1px solid #90a9c0;
+
+}
+
+
+.puc-body{
+
+    position:absolute;
+
+    left:45px;
+    top:25px;
+
+    width:180px;
+    height:120px;
+
+    border:1px solid #91a9bf;
+
+    border-radius:3px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #dce8f3,
+            #9cafc2
+        );
+
+    box-shadow:
+        0 20px 30px rgba(30,70,110,.15);
+
+}
+
+
+.puc-screen{
+
+    position:absolute;
+
+    left:20px;
+    top:20px;
+
+    width:75px;
+    height:52px;
+
+    padding:10px;
+
+    border-radius:4px;
+
+    background:#16263b;
+
+    border:4px solid #a8bbcd;
+
+}
+
+
+.puc-screen i{
+
+    display:block;
+
+    width:48px;
+    height:3px;
+
+    margin-bottom:6px;
+
+    border-radius:5px;
+
+    background:#2f8af2;
+
+}
+
+
+.puc-screen i:nth-child(2){
+
+    width:28px;
+
+}
+
+
+.puc-control{
+
+    position:absolute;
+
+    right:22px;
+    top:23px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+
+.puc-control b{
+
+    width:14px;
+    height:14px;
+
+    display:block;
+
+    border-radius:50%;
+
+    border:2px solid #8197ad;
+
+    background:#f4f7fa;
+
+}
+
+
+.puc-control b:nth-child(2){
+
+    background:#0759c9;
+
+}
+
+
+.puc-bottom{
+
+    position:absolute;
+
+    left:58px;
+    bottom:8px;
+
+    width:155px;
+    height:34px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+
+.puc-bottom span{
+
+    width:22px;
+    height:35px;
+
+    border-radius:2px;
+
+    background:#839ab0;
+
+}
+
+
+.puc-probe{
+
+    position:absolute;
+
+    right:8px;
+    bottom:24px;
+
+    width:80px;
+    height:10px;
+
+    border-radius:10px;
+
+    transform:rotate(-20deg);
+
+    background:
+        linear-gradient(
+            180deg,
+            #f1f5f8,
+            #849bb1
+        );
+
+}
+
+
+.puc-probe div{
+
+    position:absolute;
+
+    right:-3px;
+    top:-4px;
+
+    width:18px;
+    height:18px;
+
+    border-radius:50%;
+
+    background:#a9bbcb;
+
+}
+
+
+/* =====================================================
+   SHEET METAL
+===================================================== */
+
+.sheet-scene{
+
+    position:absolute;
+
+    left:50%;
+    top:53%;
+
+    width:300px;
+    height:210px;
+
+    transform:
+        translate(-50%,-50%)
+        rotate(-4deg);
+
+}
+
+
+.sheet-back{
+
+    position:absolute;
+
+    left:35px;
+    top:30px;
+
+    width:220px;
+    height:145px;
+
+    transform:
+        skewY(-8deg)
+        rotate(-3deg);
+
+    border:1px solid #8fa9c0;
+
+    background:
+        linear-gradient(
+            135deg,
+            #b8cadb,
+            #edf3f8
+        );
+
+    box-shadow:
+        20px 20px 30px rgba(40,80,120,.15);
+
+}
+
+
+.sheet-main{
+
+    position:absolute;
+
+    left:50px;
+    top:20px;
+
+    width:220px;
+    height:145px;
+
+    transform:
+        ske
+  <!-- =====================================================
+     PART 4 — CAPABILITIES + PROCESS
+===================================================== -->
+
+<section class="capabilities-section">
+
+    <div class="container">
+
+
+        <!-- =================================================
+             CAPABILITY HEADER
+        ================================================= -->
+
+        <div class="capability-header">
+
+            <div>
+
+                <span class="section-tag">
+                    WHY GLOBAL ENTERPRISES
+                </span>
+
+                <h2 class="section-title">
+                    Practical work.
+                    <span>Focused execution.</span>
+                </h2>
+
+            </div>
+
+
+            <p>
+                Our approach is simple — understand the
+                requirement, work around the application
+                and focus on practical industrial execution.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             CAPABILITY CARDS
+        ================================================= -->
+
+        <div class="capability-grid">
+
+
+            <!-- CARD 01 -->
+
+            <div class="capability-card">
+
+                <div class="capability-top">
+
+                    <span class="capability-number">
+                        01
+                    </span>
+
+                    <span class="capability-icon">
+                        ⚙
+                    </span>
+
+                </div>
+
+                <h3>
+                    Manufacturing
+                </h3>
+
+                <p>
+                    Practical manufacturing solutions
+                    for industrial and workshop
+                    requirements.
+                </p>
+
+                <div class="capability-line"></div>
+
+                <span class="capability-bottom">
+                    INDUSTRIAL WORK
+                </span>
+
+            </div>
+
+
+            <!-- CARD 02 -->
+
+            <div class="capability-card">
+
+                <div class="capability-top">
+
+                    <span class="capability-number">
+                        02
+                    </span>
+
+                    <span class="capability-icon">
+                        ▱
+                    </span>
+
+                </div>
+
+                <h3>
+                    Fabrication
+                </h3>
+
+                <p>
+                    Sheet metal fabrication with a focus
+                    on dimensions, application and
+                    practical requirements.
+                </p>
+
+                <div class="capability-line"></div>
+
+                <span class="capability-bottom">
+                    SHEET METAL
+                </span>
+
+            </div>
+
+
+            <!-- CARD 03 -->
+
+            <div class="capability-card">
+
+                <div class="capability-top">
+
+                    <span class="capability-number">
+                        03
+                    </span>
+
+                    <span class="capability-icon">
+                        ◉
+                    </span>
+
+                </div>
+
+                <h3>
+                    Machine Job Work
+                </h3>
+
+                <p>
+                    Lathe machine job work for parts,
+                    components and workshop-based
+                    requirements.
+                </p>
+
+                <div class="capability-line"></div>
+
+                <span class="capability-bottom">
+                    MACHINE WORK
+                </span>
+
+            </div>
+
+
+            <!-- CARD 04 -->
+
+            <div class="capability-card capability-highlight">
+
+                <div class="capability-top">
+
+                    <span class="capability-number">
+                        04
+                    </span>
+
+                    <span class="capability-icon white">
+                        +
+                    </span>
+
+                </div>
+
+                <h3>
+                    Custom Requirements
+                </h3>
+
+                <p>
+                    Have something specific in mind?
+                    Discuss your requirement with
+                    Global Enterprises.
+                </p>
+
+                <a
+                    href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20have%20a%20custom%20industrial%20requirement."
+                    target="_blank"
+                    class="capability-btn"
+                >
+                    Discuss Requirement
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PROCESS SECTION
+        ================================================= -->
+
+        <div class="process-area">
+
+
+            <div class="process-heading">
+
+                <span class="section-tag">
+                    HOW WE WORK
+                </span>
+
+                <h2>
+                    Simple process.
+                    <span>Clear communication.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="process-grid">
+
+
+                <!-- PROCESS 01 -->
+
+                <div class="process-item">
+
+                    <div class="process-number">
+                        01
+                    </div>
+
+                    <div class="process-content">
+
+                        <h3>
+                            Share Your Requirement
+                        </h3>
+
+                        <p>
+                            Tell us what you need, including
+                            the type of work, dimensions or
+                            application wherever applicable.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROCESS 02 -->
+
+                <div class="process-item">
+
+                    <div class="process-number">
+                        02
+                    </div>
+
+                    <div class="process-content">
+
+                        <h3>
+                            Discuss the Work
+                        </h3>
+
+                        <p>
+                            We understand the requirement
+                            and discuss the suitable work
+                            approach.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROCESS 03 -->
+
+                <div class="process-item">
+
+                    <div class="process-number">
+                        03
+                    </div>
+
+                    <div class="process-content">
+
+                        <h3>
+                            Work &amp; Execution
+                        </h3>
+
+                        <p>
+                            The agreed industrial work is
+                            taken forward according to the
+                            discussed requirement.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROCESS 04 -->
+
+                <div class="process-item">
+
+                    <div class="process-number">
+                        04
+                    </div>
+
+                    <div class="process-content">
+
+                        <h3>
+                            Completion
+                        </h3>
+
+                        <p>
+                            Work is completed according to
+                            the discussed scope and
+                            requirement.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             LARGE BLUE CTA
+        ================================================= -->
+
+        <div class="capability-cta">
+
+            <div class="cta-decoration"></div>
+
+            <div class="cta-content">
+
+                <span>
+                    READY TO DISCUSS YOUR REQUIREMENT?
+                </span>
+
+                <h2>
+                    Let's build the right
+                    <strong>industrial solution.</strong>
+                </h2>
+
+                <p>
+                    Connect with Global Enterprises for
+                    fabrication, machine work, tools and
+                    other industrial requirements.
+                </p>
+
+            </div>
+
+
+            <div class="cta-actions">
+
+                <a
+                    href="tel:7048993368"
+                    class="cta-white-btn"
+                >
+                    Call Now
+                    <span>☎</span>
+                </a>
+
+
+                <a
+                    href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises,%20I%20would%20like%20to%20discuss%20an%20industrial%20requirement."
+                    target="_blank"
+                    class="cta-outline-btn"
+                >
+                    WhatsApp
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PART 4 STYLES
+===================================================== -->
+
+<style>
+
+/* =====================================================
+   CAPABILITY SECTION
+===================================================== */
+
+.capabilities-section{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.capability-header{
+
+    display:grid;
+
+    grid-template-columns:
+        1.1fr .9fr;
+
+    align-items:end;
+
+    gap:50px;
+
+    margin-bottom:38px;
+
+}
+
+
+.capability-header > p{
+
+    max-width:420px;
+
+    color:#6b788b;
+
+    font-size:12px;
+
+    line-height:1.85;
+
+}
+
+
+/* =====================================================
+   CAPABILITY GRID
+===================================================== */
+
+.capability-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:14px;
+
+}
+
+
+.capability-card{
+
+    position:relative;
+
+    min-height:275px;
+
+    padding:22px;
+
+    overflow:hidden;
+
+    border:1px solid #dce7f3;
+
+    border-radius:11px;
+
+    background:#f8fbff;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+
+}
+
+
+.capability-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#b9d2ee;
+
+    box-shadow:
+        0 20px 45px rgba(25,80,135,.10);
+
+}
+
+
+/* =====================================================
+   CAPABILITY TOP
+===================================================== */
+
+.capability-top{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+
+.capability-number{
+
+    color:#8aa8c9;
+
+    font-size:9px;
+
+    font-weight:900;
+
+}
+
+
+.capability-icon{
+
+    width:34px;
+    height:34px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid #d1e0f0;
+
+    border-radius:8px;
+
+    background:#ffffff;
+
+    color:#0759c9;
+
+    font-size:16px;
+
+}
+
+
+.capability-card h3{
+
+    margin-top:40px;
+
+    color:#1b2b43;
+
+    font-size:18px;
+
+    letter-spacing:-.5px;
+
+}
+
+
+.capability-card p{
+
+    margin-top:10px;
+
+    color:#748196;
+
+    font-size:10px;
+
+    line-height:1.75;
+
+}
+
+
+.capability-line{
+
+    position:absolute;
+
+    left:22px;
+    right:22px;
+    bottom:47px;
+
+    height:1px;
+
+    background:#dbe6f2;
+
+}
+
+
+.capability-bottom{
+
+    position:absolute;
+
+    left:22px;
+    bottom:24px;
+
+    color:#8997a9;
+
+    font-size:6px;
+
+    font-weight:900;
+
+    letter-spacing:1.4px;
+
+}
+
+
+/* =====================================================
+   HIGHLIGHT CARD
+===================================================== */
+
+.capability-highlight{
+
+    border-color:#0759c9;
+
+    background:
+        linear-gradient(
+            145deg,
+            #0759c9,
+            #064cae
+        );
+
+    color:#ffffff;
+
+    box-shadow:
+        0 20px 45px rgba(7,89,201,.16);
+
+}
+
+
+.capability-highlight:hover{
+
+    border-color:#0759c9;
+
+    box-shadow:
+        0 25px 55px rgba(7,89,201,.23);
+
+}
+
+
+.capability-highlight .capability-number{
+
+    color:#b5d6ff;
+
+}
+
+
+.capability-highlight .capability-icon{
+
+    border-color:
+        rgba(255,255,255,.25);
+
+    background:
+        rgba(255,255,255,.10);
+
+    color:#ffffff;
+
+}
+
+
+.capability-highlight h3{
+
+    color:#ffffff;
+
+}
+
+
+.capability-highlight p{
+
+    color:#d2e3f7;
+
+}
+
+
+.capability-highlight .capability-line{
+
+    background:
+        rgba(255,255,255,.2);
+
+}
+
+
+/* ---------- HIGHLIGHT BUTTON ---------- */
+
+.capability-btn{
+
+    position:absolute;
+
+    left:22px;
+    bottom:19px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:7px;
+
+    color:#ffffff;
+
+    font-size:8px;
+
+    font-weight:900;
+
+}
+
+
+.capability-btn span{
+
+    transition:.2s;
+
+}
+
+
+.capability-btn:hover span{
+
+    transform:translateX(4px);
+
+}
+
+
+/* =====================================================
+   PROCESS AREA
+===================================================== */
+
+.process-area{
+
+    margin-top:100px;
+
+}
+
+
+.process-heading{
+
+    margin-bottom:32px;
+
+}
+
+
+.process-heading h2{
+
+    margin-top:10px;
+
+    color:#17263d;
+
+    font-size:
+        clamp(27px,3.5vw,42px);
+
+    letter-spacing:-1.5px;
+
+}
+
+
+.process-heading h2 span{
+
+    color:#0759c9;
+
+}
+
+
+/* =====================================================
+   PROCESS GRID
+===================================================== */
+
+.process-grid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:0;
+
+    border-top:1px solid #dce7f3;
+
+    border-bottom:1px solid #dce7f3;
+
+}
+
+
+.process-item{
+
+    position:relative;
+
+    min-height:205px;
+
+    padding:25px 22px;
+
+    border-right:1px solid #dce7f3;
+
+}
+
+
+.process-item:last-child{
+
+    border-right:0;
+
+}
+
+
+.process-number{
+
+    color:#0759c9;
+
+    font-size:9px;
+
+    font-weight:900;
+
+}
+
+
+.process-content{
+
+    margin-top:48px;
+
+}
+
+
+.process-content h3{
+
+    color:#1c2c43;
+
+    font-size:14px;
+
+}
+
+
+.process-content p{
+
+    margin-top:9px;
+
+    color:#778499;
+
+    font-size:9px;
+
+    line-height:1.75;
+
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.capability-cta{
+
+    position:relative;
+
+    min-height:250px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+    margin-top:65px;
+
+    padding:45px;
+
+    overflow:hidden;
+
+    border-radius:14px;
+
+    background:
+        linear-gradient(
+            120deg,
+            #0759c9,
+            #086ee1
+        );
+
+    color:#ffffff;
+
+    box-shadow:
+        0 25px 55px rgba(7,89,201,.17);
+
+}
+
+
+.cta-decoration{
+
+    position:absolute;
+
+    right:-60px;
+
+    top:-100px;
+
+    width:330px;
+    height:330px;
+
+    border:55px solid rgba(255,255,255,.08);
+
+    border-radius:50%;
+
+}
+
+
+.cta-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:600px;
+
+}
+
+
+.cta-content > span{
+
+    font-size:7px;
+
+    font-weight:900;
+
+    letter-spacing:1.7px;
+
+    color:#bcdcff;
+
+}
+
+
+.cta-content h2{
+
+    margin-top:10px;
+
+    font-size:
+        clamp(28px,4vw,43px);
+
+    line-height:1.08;
+
+    letter-spacing:-1.7px;
+
+}
+
+
+.cta-content h2 strong{
+
+    display:block;
+
+    color:#ffffff;
+
+}
+
+
+.cta-content p{
+
+    max-width:510px;
+
+    margin-top:12px;
+
+    color:#d1e4fa;
+
+    font-size:10px;
+
+    line-height:1.7;
+
+}
+
+
+/* =====================================================
+   CTA BUTTONS
+===================================================== */
+
+.cta-actions{
+
+    position:relative;
+
+    z-index:2;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    min-width:155px;
+
+}
+
+
+.cta-white-btn,
+.cta-outline-btn{
+
+    min-height:45px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    padding:0 17px;
+
+    border-radius:6px;
+
+    font-size:9px;
+
+    font-weight:900;
+
+    transition:.25s;
+
+}
+
+
+.cta-white-btn{
+
+    background:#ffffff;
+
+    color:#0759c9;
+
+}
+
+
+.cta-white-btn:hover{
+
+    transform:translateY(-2px);
+
+    background:#f2f7fd;
+
+}
+
+
+.cta-outline-btn{
+
+    border:1px solid rgba(255,255,255,.4);
+
+    color:#ffffff;
+
+    background:
+        rgba(255,255,255,.05);
+
+}
+
+
+.cta-outline-btn:hover{
+
+    background:
+        rgba(255,255,255,.12);
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media(max-width:950px){
+
+    .capability-header{
+
+        grid-template-columns:1fr;
+
+        gap:15px;
+
+    }
+
+
+    .capability-grid{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+
+    .process-grid{
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+
+    .process-item:nth-child(2){
+
+        border-right:0;
+
+    }
+
+
+    .process-item:nth-child(-n+2){
+
+        border-bottom:1px solid #dce7f3;
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media(max-width:600px){
+
+    .capabilities-section{
+
+        padding:70px 0;
+
+    }
+
+
+    .capability-header{
+
+        margin-bottom:25px;
+
+    }
+
+
+    .capability-grid{
+
+        grid-template-columns:1fr;
+
+        gap:12px;
+
+    }
+
+
+    .capability-card{
+
+        min-height:235px;
+
+        padding:19px;
+
+    }
+
+
+    .capability-card h3{
+
+        margin-top:30px;
+
+        font-size:17px;
+
+    }
+
+
+    .capability-line{
+
+        left:19px;
+        right:19px;
+        bottom:45px;
+
+    }
+
+
+    .capability-bottom{
+
+        left:19px;
+        bottom:21px;
+
+    }
+
+
+    .process-area{
+
+        margin-top:70px;
+
+    }
+
+
+    .process-heading h2{
+
+        font-size:30px;
+
+        letter-spacing:-1.2px;
+
+    }
+
+
+    .process-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .process-item{
+
+        min-height:165px;
+
+        border-right:0;
+
+        border-bottom:1px solid #dce7f3;
+
+    }
+
+
+    .process-item:last-child{
+
+        border-bottom:0;
+
+    }
+
+
+    .process-content{
+
+        margin-top:34px;
+
+    }
+
+
+    .capability-cta{
+
+        min-height:auto;
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        padding:30px 22px;
+
+        margin-top:45px;
+
+        gap:25px;
+
+    }
+
+
+    .cta-content h2{
+
+        font-size:30px;
+
+        letter-spacing:-1.2px;
+
+    }
+
+
+    .cta-actions{
+
+        width:100%;
+
+        min-width:0;
+
+    }
+
+
+    .cta-white-btn,
+    .cta-outline-btn{
+
+        width:100%;
+
+    }
+
+}
+
+</style>
+
+
+<!-- =====================================================
+     PART 4 END
+     PART 5 WILL START BELOW THIS LINE
+===================================================== -->
