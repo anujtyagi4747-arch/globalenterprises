@@ -1136,5 +1136,537 @@ main{
 
 <!-- PART 6 END -->
 <!-- PART 7 DIRECTLY BELOW -->
-  
+  <!-- PART 7 : CONTACT -->
+
+<section class="contact" id="contact">
+  <div class="container">
+
+    <div class="section-head">
+      <div>
+        <span class="mini-title">CONTACT US</span>
+        <h2>Let's Talk About<br><span>Your Requirement.</span></h2>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-info">
+
+        <a href="tel:7048993368" class="contact-item">
+          <div class="contact-icon">☎</div>
+          <div>
+            <small>CALL / WHATSAPP</small>
+            <strong>7048993368</strong>
+          </div>
+        </a>
+
+        <a href="mailto:globalenterprises05122021@gmail.com"
+           class="contact-item">
+          <div class="contact-icon">✉</div>
+          <div>
+            <small>EMAIL</small>
+            <strong>globalenterprises05122021@gmail.com</strong>
+          </div>
+        </a>
+
+        <div class="contact-item">
+          <div class="contact-icon">⌖</div>
+          <div>
+            <small>LOCATION</small>
+            <strong>9/5 Street No. 15, Brahmpur,<br>Delhi 110053</strong>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-card">
+
+        <h3>Send Your Requirement</h3>
+
+        <p>
+          Tell us what industrial work you need.
+          We will connect with you directly.
+        </p>
+
+        <button onclick="openQuote()" class="contact-btn">
+          Start Enquiry →
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+.contact{
+  padding:80px 0;
+  background:#f5f9ff;
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:25px;
+}
+
+.contact-info{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:18px;
+  background:white;
+  border:1px solid #e0e9f4;
+  border-radius:10px;
+}
+
+.contact-icon{
+  width:42px;
+  height:42px;
+  display:grid;
+  place-items:center;
+  background:#e7f1ff;
+  color:#0759d1;
+  border-radius:8px;
+  font-size:18px;
+}
+
+.contact-item small{
+  display:block;
+  color:#8795a8;
+  font-size:8px;
+  letter-spacing:1px;
+  margin-bottom:5px;
+}
+
+.contact-item strong{
+  color:#25364d;
+  font-size:12px;
+  line-height:1.5;
+}
+
+.contact-card{
+  padding:35px;
+  border-radius:14px;
+  background:#0759d1;
+  color:white;
+  min-height:250px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.contact-card h3{
+  font-size:25px;
+  margin-bottom:12px;
+}
+
+.contact-card p{
+  color:#dcecff;
+  font-size:12px;
+  line-height:1.7;
+  max-width:400px;
+}
+
+.contact-btn{
+  width:max-content;
+  margin-top:22px;
+  padding:13px 20px;
+  border:0;
+  border-radius:7px;
+  background:white;
+  color:#0759d1;
+  font-weight:800;
+  font-size:11px;
+  cursor:pointer;
+}
+
+@media(max-width:700px){
+  .contact{
+    padding:60px 0;
+  }
+
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contact-card{
+    min-height:220px;
+  }
+}
+</style>
+
+<!-- PART 7 END -->
+<!-- PART 8 DIRECTLY BELOW -->
+  <!-- PART 8 : QUOTE POPUP -->
+
+<div class="quote-overlay" id="quotePopup">
+
+  <div class="quote-popup">
+
+    <button class="popup-close" onclick="closeQuote()">×</button>
+
+    <span class="mini-title">QUICK ENQUIRY</span>
+
+    <h2>Get a Quote</h2>
+
+    <p>
+      Enter your details and requirement.
+      Your enquiry will open directly in WhatsApp.
+    </p>
+
+    <input id="qName" type="text" placeholder="Your Name">
+
+    <input id="qPhone" type="tel" placeholder="Phone Number">
+
+    <textarea id="qRequirement"
+      placeholder="Tell us your requirement..."></textarea>
+
+    <button class="send-quote" onclick="sendQuote()">
+      Send on WhatsApp →
+    </button>
+
+  </div>
+
+</div>
+
+<style>
+.quote-overlay{
+  position:fixed;
+  inset:0;
+  z-index:5000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:#071a32aa;
+  backdrop-filter:blur(6px);
+}
+
+.quote-overlay.show{
+  display:flex;
+}
+
+.quote-popup{
+  position:relative;
+  width:100%;
+  max-width:430px;
+  padding:32px;
+  background:white;
+  border-radius:16px;
+  box-shadow:0 25px 70px #071a3255;
+}
+
+.popup-close{
+  position:absolute;
+  right:15px;
+  top:12px;
+  width:32px;
+  height:32px;
+  border:0;
+  border-radius:50%;
+  background:#edf4fc;
+  color:#173452;
+  font-size:22px;
+  cursor:pointer;
+}
+
+.quote-popup h2{
+  margin:10px 0;
+  font-size:30px;
+  color:#17243a;
+}
+
+.quote-popup p{
+  color:#718096;
+  font-size:11px;
+  line-height:1.7;
+  margin-bottom:20px;
+}
+
+.quote-popup input,
+.quote-popup textarea{
+  width:100%;
+  padding:13px;
+  margin-bottom:10px;
+  border:1px solid #dce7f3;
+  border-radius:7px;
+  outline:none;
+  font:inherit;
+  font-size:11px;
+}
+
+.quote-popup textarea{
+  min-height:90px;
+  resize:vertical;
+}
+
+.quote-popup input:focus,
+.quote-popup textarea:focus{
+  border-color:#0759d1;
+}
+
+.send-quote{
+  width:100%;
+  padding:14px;
+  border:0;
+  border-radius:7px;
+  background:#0759d1;
+  color:white;
+  font-size:11px;
+  font-weight:800;
+  cursor:pointer;
+}
+
+@media(max-width:500px){
+  .quote-popup{
+    padding:25px 20px;
+  }
+}
+</style>
+
+<!-- PART 8 END -->
+<!-- PART 9 DIRECTLY BELOW -->
+  <!-- PART 9 : FOOTER -->
+
+<footer class="footer">
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <span>GE</span>
+        <strong>Global Enterprises</strong>
+      </div>
+
+      <p>
+        Industrial solutions for machining,
+        fabrication, bending, cutting and
+        hand tool requirements.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>Our Services</h4>
+      <span>PUC Machine & Probes</span>
+      <span>Sheet Metal Fabrication</span>
+      <span>Bending & Cutting</span>
+      <span>Lathe Machine Job Works</span>
+      <span>Hand Tools Making</span>
+    </div>
+
+    <div class="footer-links">
+      <h4>Contact</h4>
+      <a href="tel:7048993368">7048993368</a>
+      <a href="mailto:globalenterprises05122021@gmail.com">
+        Email Us
+      </a>
+      <span>Delhi 110053</span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Global Enterprises. All Rights Reserved.
+  </div>
+
+</footer>
+
+<style>
+.footer{
+  background:#0b1d33;
+  color:white;
+  padding:60px 0 0;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr 1.3fr 1fr;
+  gap:35px;
+  padding-bottom:45px;
+}
+
+.footer-logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.footer-logo span{
+  width:40px;
+  height:40px;
+  display:grid;
+  place-items:center;
+  background:#0759d1;
+  border-radius:7px;
+  font-weight:900;
+}
+
+.footer-logo strong{
+  font-size:15px;
+}
+
+.footer-brand p{
+  max-width:280px;
+  margin-top:17px;
+  color:#9eb0c5;
+  font-size:11px;
+  line-height:1.8;
+}
+
+.footer-links{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.footer-links h4{
+  margin-bottom:7px;
+  font-size:12px;
+}
+
+.footer-links a,
+.footer-links span{
+  color:#9eb0c5;
+  font-size:10px;
+}
+
+.footer-links a:hover{
+  color:white;
+}
+
+.footer-bottom{
+  padding:18px;
+  text-align:center;
+  border-top:1px solid #ffffff12;
+  color:#71849a;
+  font-size:9px;
+}
+
+@media(max-width:800px){
+  .footer-grid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:500px){
+  .footer-grid{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+}
+</style>
+
+<!-- PART 9 END -->
+<!-- PART 10 DIRECTLY BELOW -->
+  <!-- PART 10 : FLOATING WHATSAPP + JAVASCRIPT -->
+
+<a
+  class="floating-whatsapp"
+  href="https://wa.me/917048993368?text=Hello%20Global%20Enterprises%2C%20I%20have%20an%20enquiry."
+  target="_blank"
+  aria-label="WhatsApp">
+  <span>☘</span>
+</a>
+
+<style>
+.floating-whatsapp{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:4000;
+  width:54px;
+  height:54px;
+  display:grid;
+  place-items:center;
+  background:#18b85b;
+  color:white;
+  border-radius:50%;
+  box-shadow:0 8px 25px #12345a40;
+  animation:waPulse 2.5s infinite;
+}
+
+.floating-whatsapp span{
+  font-size:25px;
+}
+
+@keyframes waPulse{
+  0%,100%{
+    transform:scale(1);
+  }
+  50%{
+    transform:scale(1.07);
+  }
+}
+</style>
+
+<script>
+
+function openQuote(){
+  document.getElementById("quotePopup").classList.add("show");
+  document.body.style.overflow="hidden";
+}
+
+function closeQuote(){
+  document.getElementById("quotePopup").classList.remove("show");
+  document.body.style.overflow="";
+}
+
+function sendQuote(){
+
+  const name =
+    document.getElementById("qName").value.trim();
+
+  const phone =
+    document.getElementById("qPhone").value.trim();
+
+  const requirement =
+    document.getElementById("qRequirement").value.trim();
+
+  if(!name || !requirement){
+    alert("Please enter your name and requirement.");
+    return;
+  }
+
+  const message =
+    "Hello Global Enterprises,%0A%0A" +
+    "Name: " + encodeURIComponent(name) + "%0A" +
+    "Phone: " + encodeURIComponent(phone) + "%0A" +
+    "Requirement: " + encodeURIComponent(requirement);
+
+  window.open(
+    "https://wa.me/917048993368?text=" + message,
+    "_blank"
+  );
+}
+
+document
+  .getElementById("quotePopup")
+  .addEventListener("click",function(e){
+
+    if(e.target === this){
+      closeQuote();
+    }
+
+  });
+
+</script>
+
+<!-- PART 10 END -->
+<!-- PART 11 DIRECTLY BELOW -->
     
